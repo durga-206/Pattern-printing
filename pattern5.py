@@ -1,8 +1,10 @@
 print('------------')
 print(' Pattern-5 ')
 print('------------')
-n=int(input())
-for i in range(5,0,-1):
+def pattern5(n):
+ for i in range(n,0,-1):
     for i in range(i):
         print('*' ,end=' ')
     print()
+n=int(input())
+pattern5(n)
