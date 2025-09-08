@@ -10,5 +10,6 @@ for i in range(0,n):
          print(' ',end=' ')
     print()
 n=int(input())
-pattern1(n)
+pattern24(n)
+
 
