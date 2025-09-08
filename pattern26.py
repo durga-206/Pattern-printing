@@ -1,7 +1,7 @@
 print('------------')
 print(' Pattern-26 ')
 print('------------')
-def pattern25(n):
+def pattern26(n):
  for i in range(0,n):
     for space in range(1,n-i):
         print(' ',end='')
@@ -16,5 +16,6 @@ def pattern25(n):
     print()
 n=int(input())
 pattern26(n)
+
 
 
