@@ -9,4 +9,6 @@ for i in range(0,n):
      else:
          print(' ',end=' ')
     print()
+n=int(input())
+pattern1(n)
 
