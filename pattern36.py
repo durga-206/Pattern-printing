@@ -1,8 +1,8 @@
 print('------------')
 print(' Pattern-21')
 print('------------')
-n=int(input())
-for i in range(0,n):
+def pattern36(n):
+ for i in range(0,n):
     for space in range(1,n-i):
         print(' ',end='')
     for alpha in range(0,2*i+1):
@@ -10,5 +10,6 @@ for i in range(0,n):
     print()
 n=int(input())
 pattern36(n)
+
 
 
