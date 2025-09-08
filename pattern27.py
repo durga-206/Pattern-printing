@@ -14,3 +14,6 @@ for i in range(1,n):
     for star in range(0,2*i+1):
         print('*',end='')
     print()
+n=int(input())
+pattern27(n)
+
