@@ -20,3 +20,6 @@ for i in range(n-2,-1,-1):
         else:
             print(' ',end='')
     print()
+n=int(input())
+pattern30(n)
+
